@@ -1,0 +1,318 @@
+/*
+Theme Name: Eviliripper child theme
+Theme URI: http://www.evilripper.net/eviltheme-twentytwelve-child-theme
+Description: Child theme for the Twenty Twelve theme
+Author: Evilripper
+Author URI: http: //www.evilripper.net
+Template: twentytwelve
+Version: 1.0
+*/
+@import url("../twentytwelve/style.css");
+
+
+body .site 
+{
+    padding: 15px;
+}
+
+.site-header
+{
+     padding: 0.2em 0;
+}
+
+
+.site-header h1 {
+    font-size: 1.2em;
+    line-height: 1.84615;
+}
+
+code {
+   font: 13px Monaco;
+}
+
+pre {
+   background: #333;
+   color: white;
+   padding: 20px;
+   margin: 0 0 20px 0; /* Probably the same as paragraphs */
+}
+
+
+#page 
+{
+    margin: 0 auto; 
+    max-width: 1200px;
+}
+
+
+#title-container
+{
+	width:300px;
+	float:left;	
+}
+
+#amazon-banner
+{ 
+	float:left;
+}
+
+#adsense46860
+{
+	margin:auto;
+	width:468px;
+}
+
+.small-label-left
+{	
+text-align:left;
+font-size:small;
+}
+
+#adsense336280
+{
+	
+}
+/*
+.site
+{
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.site-header
+{
+    padding: 0 0 0 0;
+}
+
+.site-content 
+{
+	padding:10px
+	float: none;
+	width: 100%;
+}
+*/
+
+
+img.attachment-post-thumbnail
+{
+	float:left; 
+	margin:10px 10px 10px 10px;
+}
+
+img.alignleft {
+    float: none;
+}
+
+img.social-icon
+{
+	border-radius:0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+body, input, textarea {
+	color: #373737;
+	/*font: 18px/1.8em Georgia, Helvetica, Arial, sans-serif;*/
+	font:  1.25em/1.6em "PT Serif",Georgia,Times,"Times New Roman",serif;
+	line-height: 1.45;
+}
+
+#site-navigation
+{
+	/*se vuoi fare un gradiente così vai qui http://www.colorzilla.com/gradient-editor/*/
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#content 
+{
+	text-align:justify;
+}
+
+#secondary 
+{
+	
+	float: right;
+	margin-left: 2px; 
+	margin-right: 2px;
+	width:336px;
+}
+
+.entry-header
+{
+
+	margin-bottom: 0.5rem;
+}
+
+div.share-bar
+{
+	/*border:1px solid red;*/
+    clear: both;
+    /*padding-bottom: 5px;*/
+    padding-top: 10px;
+	border-bottom: 2px dotted #EDEDED;
+	height:40px;
+
+}
+
+
+.facebook-button
+{
+	float:left;
+	width:110px;
+}
+
+.twitter-button
+{
+	float:left;
+	margin-top:4px;
+	padding-left: 1px;
+	width:100px;
+}
+
+.gplusone-button
+{
+	float:left;
+	margin-top:4px;
+	padding-left: 10px;
+	width:100px;
+}
+
+.site-content article 
+{
+    border-bottom: 4px dotted #EDEDED;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+
+footer.entry-meta {
+    color: #777777;
+    font-size: 0.928571rem;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.widget-area .widget
+{
+    margin-bottom: 0.5rem;
+}
+.widget-area .widget h3
+{
+    margin-bottom:  0.5rem;
+}
+
+footer[role="contentinfo"] 
+{
+    border-top: 1px solid #EDEDED;
+    clear: both;
+    font-size: 0.857143rem;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.71429rem;
+    padding: 1.71429rem 0;
+	/*ACCROCCO DIO DI DIO qnt fanno schifo i css*/
+	max-width: 10000px;
+	/*se vuoi fare un gradiente così vai qui http://www.colorzilla.com/gradient-editor */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+/*
+hot content
+*/
+
+#hot-content
+{
+    margin-left: 4px;
+    width: 938px;
+}
+
+#hot-content div {
+    clear: none;
+    float: left;
+    line-height: 1.2;
+    padding: 3px;
+    width: 130px;
+}
+
+#hot-content img
+{
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #CDCDCD;
+    height: 120px;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 120px;
+}
+
+#hot-content a {
+    color: #004488;
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: -1px;
+    min-height: 85px;
+}
+
+.alertbox
+{
+	border:2px dashed #ff6666;
+	padding:5px;
+	background:#ffffcc;
+}
+
+blockquote {
+background:#f9f9f9;
+border-left:10px solid #ccc;
+margin:1.5em 10px;
+padding:.5em 10px;
+quotes:"\201C""\201D""\2018""\2019";
+font-style:italic;
+}
+blockquote:before {
+color:#ccc;
+content:open-quote;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+vertical-align:-.4em;
+
+}
+blockquote p {
+display:inline;
+}
+
+
+/*My responsive directive #evilripper */
+@media screen and (max-width: 1100px), screen and (max-device-width: 1100px) 
+{
+	#secondary 
+	{
+		float:none;
+		/*display:none;*/
+	}
+	.site-content 
+	{
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px), screen and (max-device-width: 700px) 
+{
+	#hot-content { display:none; }
+}

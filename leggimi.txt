@@ -1,0 +1,8 @@
+Per usarlo è necessario avere il anche il tema originale Twenty Twelve che puoi scaricare da qui
+http://wordpress.org/extend/themes/twentytwelve
+
+Il child theme che ho creato non differisce molto dall'originale cambia il menu, il footer e la sidebar che è più grande per poter contenere banner quadrato di google. Il carattere è molto grande e leggibile. C'è anche il file per wp-sintax in stile matrix che vi serve solo se avete il plugin.
+
+La sidebar la si popola unicamente con i widget, gli unici file php in override sono content.php e footer.php. Nel tema che ho creato si inseriscono automaticamente i pulsanti di condivisione richiamati in maniera asincrona e se si impostano le immagini featured e il riassunto negli articoli la lista nella home si popola con immagine piccola e il riassunto di fianco.
+
+http://www.evilripper.net

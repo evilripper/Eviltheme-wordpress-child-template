@@ -1,0 +1,17 @@
+se volete eliminare explorer < 8 va inserito nell'header.php di twenty twelve dopo <div id="page" class="hfeed site">
+
+<!--[if lt IE 8]>
+<div style ="background:#0000aa;color:#ffffff;font-family:courier;font-size:12pt;text-align:center;position: absolute;top: 0%;left: 0%;width: 100%;height: 2000px;z-index:999;"> <span
+style=" background:#fff; color:#0000aa; padding:2px 8px;font-weight:bold;">ERROR INTERNET EXPLORER <= 6 DETECTED</span><p
+style="margin:30px 200px;text-align:left;"> Oh no! @_@ you are using a sucking browser and you can't see my blog! please download another browser!</p><p
+style=" margin:30px 200px;text-align:left; z-index:1002;"> * Send us an e-mail to notify this and try it later.<br
+/> * Press CTRL+ALT+DEL to restart your computer. You will<br
+/> &nbsp; lose unsaved information in any programs that are running.</p> Press any download to fix or go away!<div
+style = "text-align:center;margin-top:50px;"> <a
+style="color:white" href="http://www.mozilla.com/en-US/firefox/">Firefox</a> | <a
+style="color:white" href="http://www.google.com/chrome/index.html">Chrome</a></div></div> <![endif]-->
+
+se volete sensibilizzare chi usa explomerda 8 a passare al 9
+
+<!--[if lt IE 9]><p style="background:red;color:white;">
+ Il tuo browser <em>appare datato!</em> Sembra tu stia utilizzando un vecchia versione di Internet Explorer. Per una migliore esperienza sul web <a href="http://browsehappy.com/">aggiorna il tuo browser.</a> to experience this site.</p><![endif]-->
