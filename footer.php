@@ -19,9 +19,9 @@
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a> 
-			and child theme Twentytwelve <a href="http://www.evilripper.net/2012/10/05/con-twenty-twelve-wordpress-diventa-molto-responsive‎">EvilTheme</a> power by <a target="_blank" href="http://www.evilripper.net" rel="generator">evilripper</a>  &copy; 2012
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+			and child theme Twentytwelve <a href="http://www.evilripper.net/2012/10/05/con-twenty-twelve-wordpress-diventa-molto-responsive/">EvilTheme</a> power by <a target="_blank" href="http://www.evilripper.net" rel="generator">evilripper</a>  &copy; 2012
+		</div><!-- .site-info -->				
+	</footer><!-- #colophon --> 
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
